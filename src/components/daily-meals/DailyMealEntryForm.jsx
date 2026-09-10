@@ -144,7 +144,6 @@ function DailyMealFormInner({
                     type="number"
                     step="0.5"
                     min="0"
-                    max="20"
                     value={count}
                     onChange={(e) => handleMealChange(member.id, e.target.value)}
                     className="w-full text-center font-black text-xl text-slate-900 dark:text-slate-100 border border-slate-300 dark:border-slate-600 rounded-lg py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-slate-50 dark:bg-slate-900 shadow-2xs"
